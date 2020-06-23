@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a111"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="会话"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.example.myexercise.NoScrollViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></com.example.myexercise.NoScrollViewPager>
+
+    <LinearLayout
+
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"></LinearLayout>
+
+</LinearLayout>
